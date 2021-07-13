@@ -1,0 +1,14 @@
+import React from "react";
+
+const Form = () => {
+    return(
+        <form>
+            <input type="text" className="search-input"/>
+            <button className="search-button" type="submit">
+            <i className="fas fa-plus-square"></i>
+            </button>
+        </form>
+    )
+}
+
+export default Form;
